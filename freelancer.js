@@ -46,13 +46,12 @@ const maxFreelancers = 15
 const Freelancers = [
   { name: "Alice", occupation: "Writer", rate: "$30" },
   { name: "Bob", occupation: "Teacher", rate: "$50" },
-  { name: "Carol", occupation: "Programmer", rate: "$70" },
 ];
 
-// Call addFreelancer with setInterval every 2000 miliseconds (2 seconds)
+// Call addFreelancer with setInterval every 4000 miliseconds (4 seconds)
 // return an interval ID that can be used to stop the interval later using clearInterval
 
-const addFreelancerIntervalId = setInterval(addFreelancer, 2000);
+const addFreelancerIntervalId = setInterval(addFreelancer, 4000);
 
 // Call render function to render the initial state
 // added window.onload because otherwise for some reason the initial Freelancers Alice, Bob, and Carol

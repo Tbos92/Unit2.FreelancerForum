@@ -86,9 +86,9 @@ function updateAverageRate() {
 function render() {
   const freelancersTable = document.querySelector("#freelancers tbody");
   // Clear existing rows
-//   while (freelancersTable.firstChild) {
-//     freelancersTable.removeChild(freelancersTable.firstChild);
-//   }
+  while (freelancersTable.firstChild) {
+    freelancersTable.removeChild(freelancersTable.firstChild);
+  }
   // Add new rows for new freelancers
   Freelancers.forEach((freelancer) => {
     const row = document.createElement("tr");

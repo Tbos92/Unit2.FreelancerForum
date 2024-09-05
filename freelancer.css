@@ -1,0 +1,33 @@
+table,
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+}
+tr:hover {
+    background-color: lightpink;
+}
+h1 {
+    text-align: center;
+}
+body {
+    outline: 1px solid;
+    padding: 10%;
+}
+p {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+#name {
+    width: fit-content;
+    padding-inline: 15px;
+}
+#occupation {
+    width: fit-content;
+    padding-inline: 30px;
+}
+#rate {
+    width: fit-content;
+    padding-inline: 15px;
+} 
